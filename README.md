@@ -13,7 +13,9 @@ this code uses LBP and KNN to do face recognition.
 # Run
 1. make sure the input images' path is right.  
     * in this dir, image path is `CroppedYale/` + `path in recognition_*.txt`.
-2. run `run.m`  
+2. `train.m` extracts train images' LBP descriptors.
+    * save them in a file.
+3. run `run.m`  
     * the acc will be given.
     * this code takes quite a long time to do face recognition.
 
